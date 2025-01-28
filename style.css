@@ -215,6 +215,14 @@ h1, h2, h3, p {
         font-size: 14px;
         line-height: 1.4; /* Kompaktnější text */
     }
+    ul {
+        display: block; /* Zajistí, že položky budou pod sebou */
+    }
+
+    ul li {
+        display: block; /* Každá položka bude na novém řádku */
+        text-align: center; /* Volitelné, aby text byl centrován */
+    }
 
     /* Nastavení flexboxu pro sloupce */
     .container {
