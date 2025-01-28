@@ -225,10 +225,6 @@ h1, h2, h3, p {
         gap: 10px; /* Mezera mezi položkami */
     }
 
-    ul li {
-        width: 100%; /* Každá položka bude mít 100% šířku */
-    }
-
     /* Nastavení flexboxu pro sloupce */
     .container {
         flex-direction: column;
